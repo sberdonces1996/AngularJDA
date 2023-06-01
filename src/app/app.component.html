@@ -1,4 +1,24 @@
-<app-redes-sociales></app-redes-sociales>
-<app-navegacion></app-navegacion>
-<app-buscador></app-buscador>
-<app-enlaces></app-enlaces>
+<div class="container-fluid">
+    <div class="row">
+        <app-redes-sociales></app-redes-sociales>
+    </div>
+
+    <div class="row" style="height: 90px;">
+        <div class="col-5">
+            <img src="https://www.cacoa.es/wp-content/uploads/2020/03/logo-junta-principal.png" style="margin-left:30%; width: 200px;">
+        </div>
+        <div class="col-7" style="font-size: 13px; margin-top: 10px;">
+            <app-enlaces></app-enlaces>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-primary" 
+             style="background-image: url(https://www.juntadeandalucia.es/sites/default/files/2023-03/recomendador-encontrar-empleo%E2%80%9302-marzo-2023.jpg);
+             background-size: cover; background-attachment: fixed;">
+        <app-buscador></app-buscador>
+    </div>
+
+    <div style="margin-left: 100px;">
+        <h1 style="margin-top:20px;">DIRECTO A</h1>
+        <app-navegacion></app-navegacion>
+    </div>
